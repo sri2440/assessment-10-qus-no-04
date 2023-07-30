@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assessment 10</title>
+</head>
+<body>
+    <h2>Assessment 10 - Qus.no.04</h2>
+<script>
+//Write a JavaScript function reverseString(str) that takes a string as a parameter and returns 
+//the reverse of the input string. For example, if the input is "hello," the function should return "olleh". 
+
+function reverseString(str) {
+  // Split the string into an array of characters, reverse it, and join back into a string
+  return str.split('').reverse().join('');
+}
+
+// Test the function
+const inputString = prompt("Enter text");
+const reversedString = reverseString(inputString);
+
+console.log(reversedString); // Output: "olleh"
+alert(`${reversedString}`);
+</script>
+</body>
+</html>
